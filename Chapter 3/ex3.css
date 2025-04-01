@@ -1,0 +1,45 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f5f5f5;
+}
+
+h1 {
+    color: #2e8b57;
+    text-align: center;
+}
+
+/* Image Containers */
+.image-container {
+    margin: 30px 0;
+    text-align: center;
+}
+
+img {
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    margin-bottom: 10px;
+}
+
+/* Individual Image Filters */
+#image1 {
+    filter: sepia(30%);
+}
+
+#image2 {
+    filter: brightness(110%) contrast(110%);
+}
+
+#image3 {
+    filter: saturate(150%);
+}
+
+/* License Text */
+.license {
+    font-size: 0.9em;
+    color: #666;
+    margin-top: 5px;
+}

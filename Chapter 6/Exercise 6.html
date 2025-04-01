@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Petrol Cost Calculator</title>
+    
+<link href="C:\Users\sd_02\OneDrive\Desktop\websites built\ex6\ex6.css" rel="stylesheet" type="text/css">
+<link href="C:\Users\sd_02\OneDrive\Desktop\websites built\ex6\Untitled-6.js" rel="stylesheet" type="">
+</head>
+<body>
+    <div class="calculator">
+        <!-- Calculator title -->
+        <h1>Petrol Cost Calculator</h1>
+        
+        <!-- With the price per liter in euros set to €1.72, the HTML code generates a labeled input field that accepts decimal values with a minimum of 0 -->
+        <div class="input-group">
+            <label for="price">Price per liter (€)</label>
+            <input type="number" id="price" step="0.01" min="0" value="1.72">
+        </div>
+        
+        <!-- Users can enter the number of liters they have purchased in a labeled input field created by this HTML code, which accepts decimal values beginning at 0 -->
+        <div class="input-group">
+            <label for="liters">Liters purchased</label>
+            <input type="number" id="liters" step="0.1" min="0" value="0">
+        </div>
+        
+        <!-- Calculate button -->
+        <button id="calculate">Calculate Total Cost</button>
+        
+        <!-- Targeting the `<span class="total-cost">` element, the HTML code shows a paragraph with the text "Total cost: €0.00" where the price (which is initially €0.00) can be constantly updated using JavaScript-->
+        <p id="result">Total cost: <span class="total-cost">€0.00</span></p>
+    </div>
+</body>
+</html>
